@@ -1,6 +1,6 @@
 
 main {
-    background-color: #001219;
+    background-color: #9B2226;
 }
 
 .row {
@@ -9,7 +9,7 @@ main {
 
 .container {
     background-color: #0A9396;
-    padding: 20px;
+    padding: 10px;
     display: flex;
     flex-wrap: wrap;
     width: 280px;
@@ -25,3 +25,36 @@ main {
     margin: 10px;
 }
 
+.one {
+    justify-content: flex-start;
+    align-content: flex-start;
+    background-color: #0A9396;
+}
+
+.two {
+    justify-content: flex-end;
+    align-content: flex-end;
+    background-color: #CA6702;
+}
+
+.container__within {
+    display: flex;
+}
+
+.three {
+    justify-content: space-between;
+    align-content:space-between;
+    background-color: #0A9396;
+}
+
+.four {
+    justify-content: space-between;
+    align-content: space-around;
+    background-color: #CA6702;
+}
+
+.five {
+    justify-content: center;
+    align-content: center;
+    background-color: #0A9396;
+}
