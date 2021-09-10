@@ -1,10 +1,11 @@
 
 main {
     background-color: #9B2226;
-}
-
-.row {
-    display: flex;
+   display: flex;
+   flex-wrap: wrap;
+   align-content: center;
+   max-inline-size: 1200px;
+   padding: 50px;
 }
 
 .container {
@@ -32,13 +33,10 @@ main {
 }
 
 .two {
-    justify-content: flex-end;
-    align-content: flex-end;
+    flex-wrap: wrap-reverse;
+    flex-direction: row-reverse;
+    align-content: flex-start;
     background-color: #CA6702;
-}
-
-.container__within {
-    display: flex;
 }
 
 .three {
